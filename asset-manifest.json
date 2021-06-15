@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/googlekeepclone/static/css/main.76ddc036.chunk.css",
+    "main.js": "/googlekeepclone/static/js/main.5e5a25dc.chunk.js",
+    "main.js.map": "/googlekeepclone/static/js/main.5e5a25dc.chunk.js.map",
+    "runtime-main.js": "/googlekeepclone/static/js/runtime-main.26fc6495.js",
+    "runtime-main.js.map": "/googlekeepclone/static/js/runtime-main.26fc6495.js.map",
+    "static/js/2.04e9918d.chunk.js": "/googlekeepclone/static/js/2.04e9918d.chunk.js",
+    "static/js/2.04e9918d.chunk.js.map": "/googlekeepclone/static/js/2.04e9918d.chunk.js.map",
+    "index.html": "/googlekeepclone/index.html",
+    "static/css/main.76ddc036.chunk.css.map": "/googlekeepclone/static/css/main.76ddc036.chunk.css.map",
+    "static/js/2.04e9918d.chunk.js.LICENSE.txt": "/googlekeepclone/static/js/2.04e9918d.chunk.js.LICENSE.txt",
+    "static/media/logo.d56be7b2.png": "/googlekeepclone/static/media/logo.d56be7b2.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26fc6495.js",
+    "static/js/2.04e9918d.chunk.js",
+    "static/css/main.76ddc036.chunk.css",
+    "static/js/main.5e5a25dc.chunk.js"
+  ]
+}
