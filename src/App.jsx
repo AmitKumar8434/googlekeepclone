@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import CreateNote from './CreateNote';
@@ -7,9 +7,15 @@ import Node from './Node';
 
 
 const App = () => {
-  const [addItem, setAddItem] = useState([]);
+   let initialitems = JSON.parse(localStorage.getItem('addItem')) || [];
+  
+  useEffect(() => {
+    localStorage.setItem('addItem',JSON.stringify([...addItem]));
+  })
+  const [addItem, setAddItem] = useState(initialitems);
   const addNote = (note) => {
     setAddItem((prev) => {
+      localStorage.setItem('addItem',JSON.stringify([...prev,note]));
       return [...prev, note];
     });
   };
